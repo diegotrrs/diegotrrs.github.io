@@ -3,24 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/page/about/</loc>
-    <lastmod>2015-04-03T02:13:50+00:00</lastmod>
+    <lastmod>2021-04-25T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-04-25T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/page/</loc>
+    <lastmod>2021-04-25T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/post-copy/</loc>
+    <lastmod>2021-04-25T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2021-04-25T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/post-copy/when-to-repeat-yourself/</loc>
+    <lastmod>2021-04-25T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/post/when-to-repeat-yourself/</loc>
+    <lastmod>2021-04-25T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/page/contact/</loc>
     <lastmod>2015-04-03T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2015-04-03T02:13:50+00:00</lastmod>
-  </url><url>
-    <loc>/page/</loc>
-    <lastmod>2015-04-03T02:13:50+00:00</lastmod>
-  </url><url>
-    <loc>/creating-a-new-theme/</loc>
+    <loc>/post-copy/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
-    <lastmod>2014-09-28T02:13:50+00:00</lastmod>
-  </url><url>
-    <loc>/goisforlovers/</loc>
+    <loc>/post-copy/goisforlovers/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/tags/development/</loc>
@@ -32,7 +41,7 @@
     <loc>/tags/golang/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/migrate-from-jekyll/</loc>
+    <loc>/post-copy/migrate-from-jekyll/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
@@ -50,7 +59,7 @@
     <loc>/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/hugoisforlovers/</loc>
+    <loc>/post-copy/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/golang/</loc>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>When to repeat yourself &middot; </title>
+        <meta name="description" content="Good practices are methods or techniques that have been generally accepted as the best to use in a certain field or industry. They also make communication easier because if you bring a common good practice in a conversation your colleague probably will know what you mean right away. In programming the Don&rsquo;t Repeat Yourself (DRY) is one of most known and unquestionable practices.
+1. Don&rsquo;t Repeat Yourself The main idea behind the Don&rsquo;t Repeat Yourself principle or DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.83.1" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="When to repeat yourself">
+<meta property="og:description" content="Good practices are methods or techniques that have been generally accepted as the best to use in a certain field or industry. They also make communication easier because if you bring a common good practice in a conversation your colleague probably will know what you mean right away. In programming the Don&rsquo;t Repeat Yourself (DRY) is one of most known and unquestionable practices.
+1. Don&rsquo;t Repeat Yourself The main idea behind the Don&rsquo;t Repeat Yourself principle or DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/post/when-to-repeat-yourself/">
+        <link rel="stylesheet" href="/dist/site.css">
+        <link rel="stylesheet" href="/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="/">emptyset { }</a>
+                            </h1>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/diego00t" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/diegotorrs" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:diego.torres.arguedas@gmail.com">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Posts</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">When to repeat yourself</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2021-04-25" itemprop="datePublished">Sun, Apr 25, 2021</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Diego Torres A.</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>Good practices are methods or techniques that have been generally accepted as the best to use in a certain field or industry.
+They also make communication easier because if you bring a common good practice in a conversation your colleague probably will know what you mean right away.
+In programming the <em>Don&rsquo;t Repeat Yourself (DRY)</em> is one of most known and unquestionable practices.</p>
+<h1 id="1-dont-repeat-yourself">1. Don&rsquo;t Repeat Yourself</h1>
+<p>The main idea behind the <em>Don&rsquo;t Repeat Yourself</em> principle or <em>DRY</em> is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.  This comes with benefits such as having a single source of truth and having less code to maintain.</p>
+<p><em>DRY</em>&rsquo;s main objective is avoiding <strong>duplication of knowledge</strong> (business rules or algorithms<sup><a href="#ref1">[1]</a></sup>) but not necessarily about <strong>duplication of code</strong>.  The same code can be found several times but if it represents different business rules then there is no duplication of knowledge.</p>
+<p>In <a href="#ref2">[2]</a> Mathias Verraes elaborates further on this:</p>
+<blockquote>
+<p>DRY It’s about knowledge. It’s about cohesion. If two pieces of code represent the exact same knowledge, they will always change together. Having to change them both is risky: you might forget one of them. On the other hand, if two identical pieces of code represent different knowledge, they will change independently. De-duplicating them introduces risk, because changing the knowledge for one object, might accidentally change it for the other object.</p>
+</blockquote>
+<h1 id="2-risk-wrong-abstraction">2. Risk: Wrong abstraction</h1>
+<p>Generally speaking, abstraction means removing unnecessary detail in order to focus attention on details of greater importance <sup><a href="#ref3">[3]</a> </sup> <sup><a href="#ref4">[4]</a> </sup>. In programming, this can be achieved by creating classes (generalisation), interfaces (information hiding) or functions (functional abstraction), among others. Abstraction is widely used to simplify things that may be very complex , but it can be also used to achieve other objectives such as <strong>avoiding duplication of code</strong>. But sometimes a <strong>wrong abstraction</strong> can be introduced.</p>
+<p>Sandi Metz presents a really clear example of this:</p>
+<blockquote>
+<ol>
+<li>Programmer A sees duplication.</li>
+<li>Programmer A extracts duplication and gives it a name.
+This creates a new abstraction. It could be a new method, or perhaps even a new class.</li>
+<li>Programmer A replaces the duplication with the new abstraction.
+Ah, the code is perfect. Programmer A trots happily away.</li>
+<li>Time passes.</li>
+<li>A new requirement appears for which the current abstraction is almost perfect.</li>
+<li>Programmer B gets tasked to implement this requirement.
+Programmer B feels honor-bound to retain the existing abstraction, but since isn&rsquo;t exactly the same for every case, they alter the code to take a parameter, and then add logic to conditionally do the right thing based on &gt; the value of that parameter.
+What was once a universal abstraction now behaves differently for different cases.</li>
+<li>Another new requirement arrives.
+Programmer X.
+Another additional parameter.
+Another new conditional.
+Loop until code becomes incomprehensible.</li>
+<li>You appear in the story about here, and your life takes a dramatic turn for the worse.  <sup><a href="#ref3">[5]</a></sup></li>
+</ol>
+</blockquote>
+<p>In this case, a wrong abstraction has been introduced and making the code difficult to change and to understand. As Metz points out: <em>duplication is far cheaper than the wrong abstraction</em>.</p>
+<h1 id="3-when-to-repeat-yourself">3. When to Repeat Yourself</h1>
+<p>Avoid refactoring the code to remove duplication if:</p>
+<ul>
+<li>You are not familiar with the business logic. You may not identify those cases when the duplication in code doesn&rsquo;t represent duplication in knowledge.</li>
+<li>You don&rsquo;t have enough examples of code to come up with a good abstraction. <sup><a href="#ref6">6</a></sup></li>
+<li>The risk introduced would be higher than the benefit of removing the duplication. If it&rsquo;s a critical module that has been working for ages, then leave it as it is.</li>
+<li>You don&rsquo;t have enough time to test afterwards. For example: if you are in the middle of fixing a critical bug in production then most likely it&rsquo;s not the best moment to start a refactoring.</li>
+</ul>
+<p>Important to mention is that it is also acceptable to repeat yourself if you are moving away from a wrong abstraction. <sup><a href="#ref4">4</a></sup> Refactoring doesn&rsquo;t always mean less code.</p>
+<h1 id="4-key-points">4. Key Points</h1>
+<ul>
+<li>DRY is about duplication of knowledge, not duplication of code.</li>
+<li>Duplication is far cheaper than the wrong abstraction.</li>
+<li>Be careful about introducing wrong abstractions. If necessary, re-introduce duplication to remove wrong abstractions.</li>
+<li>Before removing any duplication take in count the context and the <strong>What-When-Who</strong>: what is changing, when needs to be done and who&rsquo;s making it (your expertise).</li>
+<li>DRY, as any other principles, are tools to guide you, not rules.</li>
+</ul>
+<h1 id="5-references">5. References</h1>
+<p><a id="ref1" href="https://thevaluable.dev/dry-principle-cost-benefit-example/">[1]</a> Cneude, Matthieu. 2018. The DRY Principle: Benefits and Costs with Examples. <a href="https://www.mendeley.com/guides/ultimate-citation-cheat-sheet">https://www.mendeley.com/guides/ultimate-citation-cheat-sheet</a></p>
+<p><a id="ref2" href="https://verraes.net/2014/08/dry-is-about-knowledge/">[2]</a> Verraes, Mathias. 2014. DRY is about Knowledge. <a href="https://verraes.net/2014/08/dry-is-about-knowledge/">https://verraes.net/2014/08/dry-is-about-knowledge/</a></p>
+<p><a id="ref3" href="https://isaaccomputerscience.org/concepts/dsa_ctm_abstraction">[3]</a> Abstraction and automation. <a href="https://verraes.net/2014/08/dry-is-about-knowledge/">https://verraes.net/2014/08/dry-is-about-knowledge/</a></p>
+<p><a id="ref4" href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)">[4]</a> Abstraction (computer science). <a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)">https://en.wikipedia.org/wiki/Abstraction_(computer_science)</a></p>
+<p><a id="ref5" href="https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction">[5]</a> Metz, Sandy. 2016. The Wrong Abstraction. <a href="https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction">https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction</a></p>
+<p><a id="ref6" href="https://blog.ploeh.dk/2014/08/07/why-dry/">[6]</a> Seemann, Mark. 2014. Why Dry? <a href="https://blog.ploeh.dk/2014/08/07/why-dry/">https://blog.ploeh.dk/2014/08/07/why-dry/</a></p>
+
+</div>
+
+        <footer class="post-footer clearfix"><div class="share">
+            <a class="icon-twitter" href="https://twitter.com/share?text=When%20to%20repeat%20yourself&url=%2fpost%2fwhen-to-repeat-yourself%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="/">emptyset { }</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2021 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="/js/jquery-1.11.3.min.js"></script>
+        <script src="/js/jquery.fitvids.js"></script>
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>
+

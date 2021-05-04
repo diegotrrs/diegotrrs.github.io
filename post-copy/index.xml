@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>emptyset { }</title>
-    <link>/</link>
-    <description>Recent content on emptyset { }</description>
+    <title>Post copies on emptyset { }</title>
+    <link>/post-copy/</link>
+    <description>Recent content in Post copies on emptyset { }</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 25 Apr 2021 02:13:50 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>/page/about/</link>
-      <pubDate>Sun, 25 Apr 2021 02:13:50 +0000</pubDate>
-      
-      <guid>/page/about/</guid>
-      <description>About me Hi I&amp;rsquo;m Diego. I&amp;rsquo;ve been working in software since 2005.
-About Empty set { } Sed quis pulvinar nisi, sed dapibus lacus. Mauris tempus ex ut ipsum facilisis interdum. Integer feugiat urna sed feugiat tempor. Quisque dictum vestibulum feugiat. Nunc nec est volutpat lorem imperdiet egestas sit amet ut orci. Aliquam venenatis neque ipsum, a placerat lectus cursus at. Donec pellentesque tellus hendrerit faucibus posuere. Etiam gravida consequat lectus, volutpat consectetur velit convallis nec.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 25 Apr 2021 02:13:50 +0000</lastBuildDate><atom:link href="/post-copy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>When to repeat yourself</title>
       <link>/post-copy/when-to-repeat-yourself/</link>
@@ -24,25 +14,6 @@ About Empty set { } Sed quis pulvinar nisi, sed dapibus lacus. Mauris tempus ex 
       <guid>/post-copy/when-to-repeat-yourself/</guid>
       <description>Good practices are methods or techniques that have been generally accepted as the best to use in a certain field or industry. They also make communication easier because if you bring a common good practice in a conversation your colleague probably will know what you mean right away. In programming the Don&amp;rsquo;t Repeat Yourself (DRY) is one of most known and unquestionable practices.
 1. Don&amp;rsquo;t Repeat Yourself The main idea behind the Don&amp;rsquo;t Repeat Yourself principle or DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.</description>
-    </item>
-    
-    <item>
-      <title>When to repeat yourself</title>
-      <link>/post/when-to-repeat-yourself/</link>
-      <pubDate>Sun, 25 Apr 2021 02:13:50 +0000</pubDate>
-      
-      <guid>/post/when-to-repeat-yourself/</guid>
-      <description>Good practices are methods or techniques that have been generally accepted as the best to use in a certain field or industry. They also make communication easier because if you bring a common good practice in a conversation your colleague probably will know what you mean right away. In programming the Don&amp;rsquo;t Repeat Yourself (DRY) is one of most known and unquestionable practices.
-1. Don&amp;rsquo;t Repeat Yourself The main idea behind the Don&amp;rsquo;t Repeat Yourself principle or DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>/page/contact/</link>
-      <pubDate>Fri, 03 Apr 2015 02:13:50 +0000</pubDate>
-      
-      <guid>/page/contact/</guid>
-      <description>Contact Aenean ipsum justo, semper eu nisl ut, pretium tincidunt sem. Praesent et diam sit amet lacus lobortis dictum a id lacus. Quisque hendrerit sit amet turpis eu varius. Ut id lorem ac felis ultrices tincidunt. Pellentesque consequat arcu ac fringilla imperdiet. Phasellus pellentesque, sapien non pulvinar blandit, sapien ante aliquet felis, vel porttitor sapien ante in lacus. Fusce non urna aliquet, malesuada nibh vel, luctus urna. Phasellus ut lacus molestie, varius purus quis, malesuada lorem.</description>
     </item>
     
     <item>
