@@ -3,17 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>When to repeat yourself &middot; </title>
-        <meta name="description" content="Good practices are methods or techniques that have been generally accepted as the best to use in a certain field or industry. They also make communication easier because if you bring a common good practice in a conversation your colleague probably will know what you mean right away. In programming the Don&rsquo;t Repeat Yourself (DRY) is one of most known and unquestionable practices.
-1. Don&rsquo;t Repeat Yourself The main idea behind the Don&rsquo;t Repeat Yourself principle or DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.">
+        <title>Repition &middot; </title>
+        <meta name="description" content="Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry. They also faciliate communication between peers. For example if you bring a common practice in a conversation with your colleague they probably will know what you are talking about. In programming the Don&rsquo;t Repeat Yourself (DRY) is one of most known and common practices.
+1. Don&rsquo;t Repeat Yourself (DRY) The main idea behind the DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="generator" content="Hugo 0.83.1" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="When to repeat yourself">
-<meta property="og:description" content="Good practices are methods or techniques that have been generally accepted as the best to use in a certain field or industry. They also make communication easier because if you bring a common good practice in a conversation your colleague probably will know what you mean right away. In programming the Don&rsquo;t Repeat Yourself (DRY) is one of most known and unquestionable practices.
-1. Don&rsquo;t Repeat Yourself The main idea behind the Don&rsquo;t Repeat Yourself principle or DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.">
+        <meta property="og:title" content="Repition">
+<meta property="og:description" content="Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry. They also faciliate communication between peers. For example if you bring a common practice in a conversation with your colleague they probably will know what you are talking about. In programming the Don&rsquo;t Repeat Yourself (DRY) is one of most known and common practices.
+1. Don&rsquo;t Repeat Yourself (DRY) The main idea behind the DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="/post/when-to-repeat-yourself/">
         <link rel="stylesheet" href="/dist/site.css">
@@ -82,7 +82,7 @@
 <div class="container">
     <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
         <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">When to repeat yourself</h1>
+    <h1 class="post-title" itemprop="name headline">Repition</h1>
     
     <p class="post-date post-line">
         <span>Published <time datetime="2021-04-25" itemprop="datePublished">Sun, Apr 25, 2021</time></span>
@@ -99,12 +99,12 @@
         <div class="post-content clearfix" itemprop="articleBody">
     
 
-    <p>Good practices are methods or techniques that have been generally accepted as the best to use in a certain field or industry.
-They also make communication easier because if you bring a common good practice in a conversation your colleague probably will know what you mean right away.
-In programming the <em>Don&rsquo;t Repeat Yourself (DRY)</em> is one of most known and unquestionable practices.</p>
-<h1 id="1-dont-repeat-yourself">1. Don&rsquo;t Repeat Yourself</h1>
-<p>The main idea behind the <em>Don&rsquo;t Repeat Yourself</em> principle or <em>DRY</em> is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.  This comes with benefits such as having a single source of truth and having less code to maintain.</p>
-<p><em>DRY</em>&rsquo;s main objective is avoiding <strong>duplication of knowledge</strong> (business rules or algorithms<sup><a href="#ref1">[1]</a></sup>) but not necessarily about <strong>duplication of code</strong>.  The same code can be found several times but if it represents different business rules then there is no duplication of knowledge.</p>
+    <p>Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry.
+They also faciliate communication between peers. For example if you bring a common practice in a conversation with your colleague they probably will know what you are talking about.
+In programming the <em>Don&rsquo;t Repeat Yourself (DRY)</em> is one of most known and common practices.</p>
+<h1 id="1-dont-repeat-yourself-dry">1. Don&rsquo;t Repeat Yourself (DRY)</h1>
+<p>The main idea behind the <em>DRY</em> is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.  This comes with benefits such as having a single source of truth and having less code to maintain.</p>
+<p><em>DRY</em>&rsquo;s main objective is avoiding <strong>duplication of knowledge</strong> (business rules or algorithms<sup><a href="#ref1">[1]</a></sup>) but it&rsquo;s not necessarily about <strong>duplication of code</strong>.  The same code can be found several times but if it represents different business rules then there is no duplication of knowledge.</p>
 <p>In <a href="#ref2">[2]</a> Mathias Verraes elaborates further on this:</p>
 <blockquote>
 <p>DRY It’s about knowledge. It’s about cohesion. If two pieces of code represent the exact same knowledge, they will always change together. Having to change them both is risky: you might forget one of them. On the other hand, if two identical pieces of code represent different knowledge, they will change independently. De-duplicating them introduces risk, because changing the knowledge for one object, might accidentally change it for the other object.</p>
@@ -147,7 +147,7 @@ Loop until code becomes incomprehensible.</li>
 <li>DRY is about duplication of knowledge, not duplication of code.</li>
 <li>Duplication is far cheaper than the wrong abstraction.</li>
 <li>Be careful about introducing wrong abstractions. If necessary, re-introduce duplication to remove wrong abstractions.</li>
-<li>Before removing any duplication take in count the context and the <strong>What-When-Who</strong>: what is changing, when needs to be done and who&rsquo;s making it (your expertise).</li>
+<li>Before removing any duplication take in count the context and the <strong>What-When-Who</strong>: what is changing, when it needs to be done and who&rsquo;s making it the change (your expertise).</li>
 <li>DRY, as any other principles, are tools to guide you, not rules.</li>
 </ul>
 <h1 id="5-references">5. References</h1>
@@ -161,7 +161,7 @@ Loop until code becomes incomprehensible.</li>
 </div>
 
         <footer class="post-footer clearfix"><div class="share">
-            <a class="icon-twitter" href="https://twitter.com/share?text=When%20to%20repeat%20yourself&url=%2fpost%2fwhen-to-repeat-yourself%2f"
+            <a class="icon-twitter" href="https://twitter.com/share?text=Repition&url=%2fpost%2fwhen-to-repeat-yourself%2f"
                 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
