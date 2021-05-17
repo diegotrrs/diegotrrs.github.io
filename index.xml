@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>emptyset { }</title>
+    <title>Home</title>
     <link>/</link>
-    <description>Recent content on emptyset { }</description>
+    <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 25 Apr 2021 02:13:50 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,8 +12,7 @@
       <pubDate>Sun, 25 Apr 2021 02:13:50 +0000</pubDate>
       
       <guid>/page/about/</guid>
-      <description>About me Hi I&amp;rsquo;m Diego. I&amp;rsquo;ve been working in software since 2005.
-About Empty set { } Sed quis pulvinar nisi, sed dapibus lacus. Mauris tempus ex ut ipsum facilisis interdum. Integer feugiat urna sed feugiat tempor. Quisque dictum vestibulum feugiat. Nunc nec est volutpat lorem imperdiet egestas sit amet ut orci. Aliquam venenatis neque ipsum, a placerat lectus cursus at. Donec pellentesque tellus hendrerit faucibus posuere. Etiam gravida consequat lectus, volutpat consectetur velit convallis nec.</description>
+      <description>About me Hi I&amp;rsquo;m Diego. I&amp;rsquo;ve been working in software since 2005.</description>
     </item>
     
     <item>
