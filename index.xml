@@ -1,103 +1,206 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home</title>
+    <title>Blog</title>
+    
+    
+    
     <link>/</link>
-    <description>Recent content on Home</description>
+    <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 25 Apr 2021 02:13:50 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Apr 2021 02:13:50 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
-      <title>About</title>
-      <link>/page/about/</link>
+      <title>About me</title>
+      <link>/about/</link>
       <pubDate>Sun, 25 Apr 2021 02:13:50 +0000</pubDate>
       
-      <guid>/page/about/</guid>
-      <description>About me Hi I&amp;rsquo;m Diego. I&amp;rsquo;ve been working in software since 2005.</description>
+      <guid>/about/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Things about me.
+          
+        
+        </description>
     </item>
     
     <item>
       <title>Repition</title>
-      <link>/post-copy/better-code-with-better-english/</link>
+      <link>/examples/better-code-with-better-english/</link>
       <pubDate>Sun, 25 Apr 2021 02:13:50 +0000</pubDate>
       
-      <guid>/post-copy/better-code-with-better-english/</guid>
-      <description>1. Conjugate Expect versus Expects. 2. Know the difference between a noun and a verb, and adjective, preposition. preposition in functions names.
+      <guid>/examples/better-code-with-better-english/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          1. Conjugate Expect versus Expects. 2. Know the difference between a noun and a verb, and adjective, preposition. preposition in functions names.
 3. Use the &amp;lsquo;.&amp;rsquo;, write short sentences. 4. Know the PP of each verb. for example: isDisableD versus isDisable 5. Pluralization. Pluralization In English when you have two plural nouns text to one another the first one stays in singular (it&amp;rsquo;s called Noun Adjuncts)
-6. Order noun and adjective redhouse housered</description>
+6. Order noun and adjective redhouse housered
+          
+        
+        </description>
     </item>
     
     <item>
       <title>When to repeat yourself</title>
-      <link>/post-copy/when-to-repeat-yourself/</link>
+      <link>/examples/when-to-repeat-yourself/</link>
       <pubDate>Sun, 25 Apr 2021 02:13:50 +0000</pubDate>
       
-      <guid>/post-copy/when-to-repeat-yourself/</guid>
-      <description>Good practices are methods or techniques that have been generally accepted as the best to use in a certain field or industry. They also make communication easier because if you bring a common good practice in a conversation your colleague probably will know what you mean right away. In programming the Don&amp;rsquo;t Repeat Yourself (DRY) is one of most known and unquestionable practices.
-1. Don&amp;rsquo;t Repeat Yourself The main idea behind the Don&amp;rsquo;t Repeat Yourself principle or DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.</description>
+      <guid>/examples/when-to-repeat-yourself/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Good practices are methods or techniques that have been generally accepted as the best to use in a certain field or industry. They also make communication easier because if you bring a common good practice in a conversation your colleague probably will know what you mean right away. In programming the Don&amp;rsquo;t Repeat Yourself (DRY) is one of most known and unquestionable practices.
+1. Don&amp;rsquo;t Repeat Yourself The main idea behind the Don&amp;rsquo;t Repeat Yourself principle or DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.
+          
+        
+        </description>
     </item>
     
     <item>
       <title>When you repeat yourself</title>
-      <link>/post/when-to-repeat-yourself/</link>
+      <link>/posts/when-to-repeat-yourself/</link>
       <pubDate>Sun, 25 Apr 2021 02:13:50 +0000</pubDate>
       
-      <guid>/post/when-to-repeat-yourself/</guid>
-      <description>Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry. They also faciliate communication between peers. For example if you bring a common practice in a conversation with your colleague they probably will know what you are talking about. In programming the Don&amp;rsquo;t Repeat Yourself (DRY) is one of most known and common practices.
-1. Don&amp;rsquo;t Repeat Yourself (DRY) The main idea behind the DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.</description>
+      <guid>/posts/when-to-repeat-yourself/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry. They also faciliate communication between peers. For example if you bring a common practice in a conversation with your colleague they probably will know what you are talking about. In programming the Don&amp;rsquo;t Repeat Yourself (DRY) is one of most known and common practices.
+1. Don&amp;rsquo;t Repeat Yourself (DRY) The main idea behind the DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.
+          
+        
+        </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/page/contact/</link>
+      <link>/contact/</link>
       <pubDate>Fri, 03 Apr 2015 02:13:50 +0000</pubDate>
       
-      <guid>/page/contact/</guid>
-      <description>Contact Aenean ipsum justo, semper eu nisl ut, pretium tincidunt sem. Praesent et diam sit amet lacus lobortis dictum a id lacus. Quisque hendrerit sit amet turpis eu varius. Ut id lorem ac felis ultrices tincidunt. Pellentesque consequat arcu ac fringilla imperdiet. Phasellus pellentesque, sapien non pulvinar blandit, sapien ante aliquet felis, vel porttitor sapien ante in lacus. Fusce non urna aliquet, malesuada nibh vel, luctus urna. Phasellus ut lacus molestie, varius purus quis, malesuada lorem.</description>
+      <guid>/contact/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          How to contact me.
+          
+        
+        </description>
     </item>
     
     <item>
       <title>Creating a New Theme</title>
-      <link>/post-copy/creating-a-new-theme/</link>
+      <link>/examples/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 02:13:50 +0000</pubDate>
       
-      <guid>/post-copy/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>/examples/creating-a-new-theme/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Description of my awesome project.
+          
+        
+        </description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>/post-copy/goisforlovers/</link>
+      <link>/examples/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
       
-      <guid>/post-copy/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
+      <guid>/examples/goisforlovers/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          (Hu)go Template Primer description.
+          
+        
+        </description>
     </item>
     
     <item>
       <title>Migrating from Jekyll</title>
-      <link>/post-copy/migrate-from-jekyll/</link>
+      <link>/examples/migrate-from-jekyll/</link>
       <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
       
-      <guid>/post-copy/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>/examples/migrate-from-jekyll/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Migrating from Jekyll description.
+          
+        
+        </description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>/post-copy/hugoisforlovers/</link>
+      <link>/examples/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/post-copy/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+      <guid>/examples/hugoisforlovers/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
 Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
 Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
+          
+        
+        </description>
     </item>
     
   </channel>

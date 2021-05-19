@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Examples on Blog</title>
+    
+    
+    
+    <link>/examples/</link>
+    <description>Recent content in Examples on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Apr 2021 02:13:50 +0000</lastBuildDate>
+    
+	<atom:link href="/examples/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Repition</title>
+      <link>/examples/better-code-with-better-english/</link>
+      <pubDate>Sun, 25 Apr 2021 02:13:50 +0000</pubDate>
+      
+      <guid>/examples/better-code-with-better-english/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          1. Conjugate Expect versus Expects. 2. Know the difference between a noun and a verb, and adjective, preposition. preposition in functions names.
+3. Use the &amp;lsquo;.&amp;rsquo;, write short sentences. 4. Know the PP of each verb. for example: isDisableD versus isDisable 5. Pluralization. Pluralization In English when you have two plural nouns text to one another the first one stays in singular (it&amp;rsquo;s called Noun Adjuncts)
+6. Order noun and adjective redhouse housered
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>When to repeat yourself</title>
+      <link>/examples/when-to-repeat-yourself/</link>
+      <pubDate>Sun, 25 Apr 2021 02:13:50 +0000</pubDate>
+      
+      <guid>/examples/when-to-repeat-yourself/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Good practices are methods or techniques that have been generally accepted as the best to use in a certain field or industry. They also make communication easier because if you bring a common good practice in a conversation your colleague probably will know what you mean right away. In programming the Don&amp;rsquo;t Repeat Yourself (DRY) is one of most known and unquestionable practices.
+1. Don&amp;rsquo;t Repeat Yourself The main idea behind the Don&amp;rsquo;t Repeat Yourself principle or DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>/examples/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 02:13:50 +0000</pubDate>
+      
+      <guid>/examples/creating-a-new-theme/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Description of my awesome project.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>/examples/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
+      
+      <guid>/examples/goisforlovers/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          (Hu)go Template Primer description.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Migrating from Jekyll</title>
+      <link>/examples/migrate-from-jekyll/</link>
+      <pubDate>Wed, 02 Apr 2014 02:13:50 +0000</pubDate>
+      
+      <guid>/examples/migrate-from-jekyll/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Migrating from Jekyll description.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>/examples/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/examples/hugoisforlovers/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

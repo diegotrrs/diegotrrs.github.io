@@ -2,37 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/page/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2021-04-25T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/</loc>
     <lastmod>2021-04-25T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/page/</loc>
+    <loc>/examples/</loc>
     <lastmod>2021-04-25T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/post-copy/</loc>
+    <loc>/posts/</loc>
     <lastmod>2021-04-25T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
+    <loc>/examples/better-code-with-better-english/</loc>
     <lastmod>2021-04-25T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/post-copy/better-code-with-better-english/</loc>
+    <loc>/examples/when-to-repeat-yourself/</loc>
     <lastmod>2021-04-25T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/post-copy/when-to-repeat-yourself/</loc>
+    <loc>/posts/when-to-repeat-yourself/</loc>
     <lastmod>2021-04-25T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/post/when-to-repeat-yourself/</loc>
-    <lastmod>2021-04-25T02:13:50+00:00</lastmod>
-  </url><url>
-    <loc>/page/contact/</loc>
+    <loc>/contact/</loc>
     <lastmod>2015-04-03T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/post-copy/creating-a-new-theme/</loc>
+    <loc>/examples/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/post-copy/goisforlovers/</loc>
+    <loc>/examples/goisforlovers/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/tags/development/</loc>
@@ -44,7 +41,7 @@
     <loc>/tags/golang/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/post-copy/migrate-from-jekyll/</loc>
+    <loc>/examples/migrate-from-jekyll/</loc>
     <lastmod>2014-04-02T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
@@ -62,7 +59,7 @@
     <loc>/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post-copy/hugoisforlovers/</loc>
+    <loc>/examples/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/golang/</loc>

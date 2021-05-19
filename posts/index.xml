@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blog</title>
+    
+    
+    
+    <link>/posts/</link>
+    <description>Recent content in Posts on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Apr 2021 02:13:50 +0000</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>When you repeat yourself</title>
+      <link>/posts/when-to-repeat-yourself/</link>
+      <pubDate>Sun, 25 Apr 2021 02:13:50 +0000</pubDate>
+      
+      <guid>/posts/when-to-repeat-yourself/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry. They also faciliate communication between peers. For example if you bring a common practice in a conversation with your colleague they probably will know what you are talking about. In programming the Don&amp;rsquo;t Repeat Yourself (DRY) is one of most known and common practices.
+1. Don&amp;rsquo;t Repeat Yourself (DRY) The main idea behind the DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
