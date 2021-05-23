@@ -15,26 +15,6 @@
     
     
     <item>
-      <title>About me</title>
-      <link>/about/</link>
-      <pubDate>Sun, 25 Apr 2021 02:13:50 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Things about me.
-          
-        
-        </description>
-    </item>
-    
-    <item>
       <title>Repition</title>
       <link>/examples/better-code-with-better-english/</link>
       <pubDate>Sun, 25 Apr 2021 02:13:50 +0000</pubDate>
@@ -80,7 +60,7 @@
     <item>
       <title>When to repeat yourself</title>
       <link>/posts/when-to-repeat-yourself/</link>
-      <pubDate>Sun, 25 Apr 2021 02:13:50 +0000</pubDate>
+      <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>/posts/when-to-repeat-yourself/</guid>
       <description>
@@ -198,6 +178,26 @@ More complete instructions are available at installing hugo
 Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
 Follow the following steps:
  Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Things about me.
           
         
         </description>
