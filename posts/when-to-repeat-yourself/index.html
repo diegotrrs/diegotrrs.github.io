@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry. They also faciliate communication between peers. For example if you bring a common practice in a conversation with your colleague they probably will know what you are talking about. In programming the Don&amp;rsquo;t Repeat Yourself (DRY) is one of most known and common practices.
+  content="Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry. They also faciliate communication between peers - if you bring a common practice in a conversation with your colleague they probably will know what you are talking about. In programming the Don&amp;rsquo;t Repeat Yourself (DRY) is one of most known and common practices.
 1. Don&amp;rsquo;t Repeat Yourself (DRY) The main idea behind the DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future."
 />
 <meta
@@ -48,13 +48,13 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="When to repeat yourself"/>
-<meta name="twitter:description" content="Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry. They also faciliate communication between peers. For example if you bring a common practice in a conversation with your colleague they probably will know what you are talking about. In programming the Don&rsquo;t Repeat Yourself (DRY) is one of most known and common practices.
+<meta name="twitter:description" content="Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry. They also faciliate communication between peers - if you bring a common practice in a conversation with your colleague they probably will know what you are talking about. In programming the Don&rsquo;t Repeat Yourself (DRY) is one of most known and common practices.
 1. Don&rsquo;t Repeat Yourself (DRY) The main idea behind the DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future."/>
 
 
 
 <meta property="og:title" content="When to repeat yourself" />
-<meta property="og:description" content="Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry. They also faciliate communication between peers. For example if you bring a common practice in a conversation with your colleague they probably will know what you are talking about. In programming the Don&rsquo;t Repeat Yourself (DRY) is one of most known and common practices.
+<meta property="og:description" content="Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry. They also faciliate communication between peers - if you bring a common practice in a conversation with your colleague they probably will know what you are talking about. In programming the Don&rsquo;t Repeat Yourself (DRY) is one of most known and common practices.
 1. Don&rsquo;t Repeat Yourself (DRY) The main idea behind the DRY is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/when-to-repeat-yourself/" /><meta property="article:section" content="posts" />
@@ -175,17 +175,17 @@
     <div class="post-content">
       
       <p>Good practices are methods or techniques that have been generally accepted as the best option to use in a certain field or industry.
-They also faciliate communication between peers. For example if you bring a common practice in a conversation with your colleague they probably will know what you are talking about.
+They also faciliate communication between peers - if you bring a common practice in a conversation with your colleague they probably will know what you are talking about.
 In programming the <em>Don&rsquo;t Repeat Yourself (DRY)</em> is one of most known and common practices.</p>
 <h1 id="1-dont-repeat-yourself-dry">1. Don&rsquo;t Repeat Yourself (DRY)</h1>
 <p>The main idea behind the <em>DRY</em> is to avoid duplication of knowledge in order to reduce the risk of defects appearing when new code is introduced in the future.  This comes with benefits such as having a single source of truth and having less code to maintain.</p>
-<p><em>DRY</em>&rsquo;s main objective is avoiding <strong>duplication of knowledge</strong> (business rules or algorithms<!-- raw HTML omitted --><a href="#ref1">[1]</a><!-- raw HTML omitted -->) but it&rsquo;s not necessarily about <strong>duplication of code</strong>.  The same code can be found several times but if it represents different business rules then there is no duplication of knowledge.</p>
-<p>In <a href="#ref2">[2]</a> Mathias Verraes elaborates further on this:</p>
+<p><em>DRY</em>&rsquo;s main objective is avoiding <strong>duplication of knowledge</strong> (business rules or algorithms<!-- raw HTML omitted --> <a href="#ref1">[1]</a><!-- raw HTML omitted -->) but it&rsquo;s not necessarily about <strong>duplication of code</strong>.  The same code can be found several times but if it represents different business rules then there is no duplication of knowledge.</p>
+<p><a href="#ref2">Mathias Verraes</a>  elaborates further on this:</p>
 <blockquote>
-<p>DRY It’s about knowledge. It’s about cohesion. If two pieces of code represent the exact same knowledge, they will always change together. Having to change them both is risky: you might forget one of them. On the other hand, if two identical pieces of code represent different knowledge, they will change independently. De-duplicating them introduces risk, because changing the knowledge for one object, might accidentally change it for the other object.</p>
+<p>DRY is about knowledge. It’s about cohesion. If two pieces of code represent the exact same knowledge, they will always change together. Having to change them both is risky: you might forget one of them. On the other hand, if two identical pieces of code represent different knowledge, they will change independently. De-duplicating them introduces risk, because changing the knowledge for one object, might accidentally change it for the other object.</p>
 </blockquote>
 <h1 id="2-risk-wrong-abstraction">2. Risk: Wrong abstraction</h1>
-<p>Generally speaking, abstraction means removing unnecessary detail in order to focus attention on details of greater importance <!-- raw HTML omitted --><a href="#ref3">[3]</a> <!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="#ref4">[4]</a> <!-- raw HTML omitted -->. In programming, this can be achieved by creating classes (generalisation), interfaces (information hiding) or functions (functional abstraction), among others. Abstraction is widely used to simplify things that may be very complex , but it can be also used to achieve other objectives such as <strong>avoiding duplication of code</strong>. But sometimes a <strong>wrong abstraction</strong> can be introduced.</p>
+<p>Generally speaking, abstraction means removing unnecessary detail in order to focus attention on details of greater importance <!-- raw HTML omitted --><a href="#ref3">[3]</a> <!-- raw HTML omitted --> <!-- raw HTML omitted --><a href="#ref4">[4]</a> <!-- raw HTML omitted -->. In programming, this can be achieved by creating classes (generalisation), interfaces (information hiding) or functions (functional abstraction), among others. Abstraction is widely used to simplify things that may be very complex , but it can also be used to achieve other objectives such as <strong>avoiding duplication of code</strong>. But sometimes a <strong>wrong abstraction</strong> can be introduced.</p>
 <p>Sandi Metz presents a really clear example of this:</p>
 <blockquote>
 <ol>
@@ -197,7 +197,7 @@ Ah, the code is perfect. Programmer A trots happily away.</li>
 <li>Time passes.</li>
 <li>A new requirement appears for which the current abstraction is almost perfect.</li>
 <li>Programmer B gets tasked to implement this requirement.
-Programmer B feels honor-bound to retain the existing abstraction, but since isn&rsquo;t exactly the same for every case, they alter the code to take a parameter, and then add logic to conditionally do the right thing based on &gt; the value of that parameter.
+Programmer B feels honor-bound to retain the existing abstraction, but since it isn&rsquo;t exactly the same for every case, they alter the code to take a parameter, and then add logic to conditionally do the right thing based on &gt; the value of that parameter.
 What was once a universal abstraction now behaves differently for different cases.</li>
 <li>Another new requirement arrives.
 Programmer X.
@@ -222,7 +222,7 @@ Loop until code becomes incomprehensible.</li>
 <li>DRY is about duplication of knowledge, not duplication of code.</li>
 <li>Duplication is far cheaper than the wrong abstraction.</li>
 <li>Be careful about introducing wrong abstractions. If necessary, re-introduce duplication to remove wrong abstractions.</li>
-<li>Before removing any duplication take in count the context and the <strong>What-When-Who</strong>: what is changing, when it needs to be done and who&rsquo;s making it the change (your expertise).</li>
+<li>Before removing any duplication take into count the context and the <strong>What-When-Who</strong>: what is changing, when it needs to be done and who&rsquo;s making the change (your expertise).</li>
 <li>DRY, as any other principles, are tools to guide you, not rules.</li>
 </ul>
 <h1 id="5-references">5. References</h1>
