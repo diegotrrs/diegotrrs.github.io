@@ -9,10 +9,31 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>10 Tips for troubleshooting</title>
+      <link>/posts/tips-troubleshooting/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/tips-troubleshooting/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&amp;rsquo;s causing a specific problem, makes the whole thing worthy. The following is a list of tips I usually take when troubleshooting:
+1. Check the logs This one is number one for a reason.
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>When to repeat yourself</title>
