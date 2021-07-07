@@ -11,8 +11,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&amp;rsquo;s causing a specific problem, makes the whole thing worthy. The following is a list of tips I usually take when troubleshooting:
-1. Check the logs This one is number one for a reason."
+  content="Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&amp;rsquo;s causing a specific problem, makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
+1. Check the logs This is number one for a reason."
 />
 <meta
   name="keywords"
@@ -48,14 +48,14 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="10 Tips for troubleshooting"/>
-<meta name="twitter:description" content="Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&rsquo;s causing a specific problem, makes the whole thing worthy. The following is a list of tips I usually take when troubleshooting:
-1. Check the logs This one is number one for a reason."/>
+<meta name="twitter:description" content="Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&rsquo;s causing a specific problem, makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
+1. Check the logs This is number one for a reason."/>
 
 
 
 <meta property="og:title" content="10 Tips for troubleshooting" />
-<meta property="og:description" content="Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&rsquo;s causing a specific problem, makes the whole thing worthy. The following is a list of tips I usually take when troubleshooting:
-1. Check the logs This one is number one for a reason." />
+<meta property="og:description" content="Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&rsquo;s causing a specific problem, makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
+1. Check the logs This is number one for a reason." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/tips-troubleshooting/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-07-01T00:00:00+00:00" />
@@ -174,12 +174,12 @@
 
     <div class="post-content">
       
-      <p>Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&rsquo;s causing a specific problem, makes the whole thing worthy. The following is a list of tips I usually take when troubleshooting:</p>
+      <p>Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&rsquo;s causing a specific problem, makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:</p>
 <h2 id="1-check-the-logs">1. Check the logs</h2>
-<p>This one is number one for a reason. Always check the logs. If the issue is in a web app then take a look at the logs in the browser and then move to the logs in the backend or other components. If the software isn&rsquo;t a web application then identify the components involved and choose an order to check out the logs - from inner layers to outer layer - or viceversa.</p>
-<p>Consider using cloud based logging/monitoring tool such as <a href="https://www.sentry.io">Sentry</a> or <a href="https://logrocket.com/">Log Rocket</a> they will make your life easier.</p>
-<h2 id="2-change-one-thing-at-the-time">2. Change one thing at the time.</h2>
-<p>Approach troubleshooting as an exercise of the <a href="https://www.britannica.com/science/scientific-method">scientic method</a>. Observe the problem, identify the possible variables involved, make predictions on how those variables value may be causing the issue and finally test your predictions <strong>changing one thing at the time</strong>. I cannot emphasize enough how important this is, if you change several things - for example variables&rsquo;s values - at the same time you might not come to conclusion as quick as desired since you&rsquo;re practically invaliding your tests. Soren Bjornstad talks about this on his blog <a href="https://controlaltbackspace.org/debugging/scientific-method/">Debugging &amp; the Scientic Method</a>.</p>
+<p>This is number one for a reason. Always check the logs. If the issue is in a web app then take a look at the logs in the browser and then move to the logs in the backend or other components. If the software isn&rsquo;t a web application then identify the components involved and choose an order to check out the logs - from inner layers to outer layer - or viceversa.</p>
+<p>Consider using cloud based logging/monitoring tool such as <a href="https://www.sentry.io">Sentry</a> or <a href="https://logrocket.com/">Log Rocket</a>, they will make your life easier.</p>
+<h2 id="2-change-one-thing-at-a-time">2. Change one thing at a time.</h2>
+<p>Approach troubleshooting as an exercise of the <a href="https://www.britannica.com/science/scientific-method">scientic method</a>. Observe the problem, identify the possible variables involved, make predictions on how those variables value may be causing the issue and finally test your predictions <strong>changing one thing at a time</strong>. I cannot emphasize enough how important this is, if you change several things - for example variables&rsquo;s values - at the same time you might not come to conclusion as quick as desired since you&rsquo;re practically invaliding your tests. Soren Bjornstad talks about this on his blog <a href="https://controlaltbackspace.org/debugging/scientific-method/">Debugging &amp; the Scientic Method</a>.</p>
 <h2 id="3-identify-what-may-have-changed">3. Identify what may have changed</h2>
 <p>Whether it&rsquo;s a recent bug or an old one, identifying what may have changed around the time the bug started to manifest is a good thing to do. Did someone installed a new library? Did the version of a new libray get updated? Did the server was just updated? Did new code was deployed? Those are some of the question you&rsquo;d need to ask. Make use of the code repositores log to access the history of changes. If there are a lot of changes between the <em>version-that-works</em> and <em>the-one-that-doesnt</em> you can apply the next tip.</p>
 <h2 id="4-compare-compare-compare">4. Compare, compare, compare.</h2>
