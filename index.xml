@@ -16,27 +16,6 @@
     
     <item>
       <title>10 Tips for troubleshooting</title>
-      <link>/posts/tips-troubleshooting/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/tips-troubleshooting/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&amp;rsquo;s causing a specific problem, makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
-1. Check the logs This is number one for a reason.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>10 Tips for troubleshooting</title>
       <link>/wip/tips-troubleshooting/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -52,6 +31,27 @@
           5. Binary search. Bonus. Did I just copy 1.6. Consider other factors besides code. Infrastructure.
 2.2 Do a Binary search using console logs. 2.5 Start again Delete the code, install libraries again. Believe sometime it just happens.
 2.6 Try things more than once. Remember that memory is a factor
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Tips for troubleshooting</title>
+      <link>/posts/tips-troubleshooting/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/tips-troubleshooting/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&amp;rsquo;s causing a specific problem makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
+1. Check the logs This is number one for a reason.
           
         
         </description>
