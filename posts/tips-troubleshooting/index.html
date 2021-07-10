@@ -3,7 +3,7 @@
   <head>
     
       <title>
-        Tips for troubleshooting ::
+        10 Tips for troubleshooting ::
         Blog — Diego Torres Arguedas
       </title>
     
@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&amp;rsquo;s causing a specific problem makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
+  content="Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious — and it is — but that boost of dopamine you get when you find what&amp;rsquo;s causing a specific problem makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
 1. Check the logs This is number one for a reason."
 />
 <meta
@@ -47,14 +47,14 @@
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tips for troubleshooting"/>
-<meta name="twitter:description" content="Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&rsquo;s causing a specific problem makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
+<meta name="twitter:title" content="10 Tips for troubleshooting"/>
+<meta name="twitter:description" content="Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious — and it is — but that boost of dopamine you get when you find what&rsquo;s causing a specific problem makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
 1. Check the logs This is number one for a reason."/>
 
 
 
-<meta property="og:title" content="Tips for troubleshooting" />
-<meta property="og:description" content="Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&rsquo;s causing a specific problem makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
+<meta property="og:title" content="10 Tips for troubleshooting" />
+<meta property="og:description" content="Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious — and it is — but that boost of dopamine you get when you find what&rsquo;s causing a specific problem makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
 1. Check the logs This is number one for a reason." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/tips-troubleshooting/" /><meta property="article:section" content="posts" />
@@ -147,7 +147,7 @@
   
 
   <div class="post">
-    <h1 class="post-title">Tips for troubleshooting</h1>
+    <h1 class="post-title">10 Tips for troubleshooting</h1>
     <div class="post-meta">
       
         <span class="post-date">
@@ -174,24 +174,28 @@
 
     <div class="post-content">
       
-      <p>Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&rsquo;s causing a specific problem makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:</p>
+      <p>Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious — and it is — but that boost of dopamine you get when you find what&rsquo;s causing a specific problem makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:</p>
 <h2 id="1-check-the-logs">1. Check the logs</h2>
-<p>This is number one for a reason. Always check the logs. If the issue is in a web app then take a look at the logs in the browser and then move to the logs in the backend or other components. If the software isn&rsquo;t a web application, then identify the components involved and choose an order to check out the logs - from inner layers to outer layer - or viceversa.</p>
-<p>Consider using cloud based logging/monitoring tool such as <a href="https://www.sentry.io">Sentry</a> or <a href="https://logrocket.com/">Log Rocket</a>, they will make your life easier.</p>
-<h2 id="2-change-one-thing-at-a-time">2. Change one thing at a time.</h2>
-<p>Approach troubleshooting as an exercise of the <a href="https://www.britannica.com/science/scientific-method">scientic method</a>. Observe the problem, identify the possible variables involved, make predictions on how those variables value may be causing the issue and finally test your predictions <strong>changing one thing at a time</strong>. I cannot emphasize enough how important this is, if you change several things - for example variables&rsquo;s values - at the same time you might not come to conclusion as quick as desired since you&rsquo;re practically invaliding your tests. Soren Bjornstad talks about this on his blog <a href="https://controlaltbackspace.org/debugging/scientific-method/">Debugging &amp; the Scientic Method</a>.</p>
+<p>This is number one for a reason. Always check the logs. If the issue is in a web app then take a look at the logs in the browser and then move to the logs in the backend or other components. If the software isn&rsquo;t a web application, then identify the components involved and choose an order to check out the logs from inner layers to outer layer or viceversa.</p>
+<p>Consider using cloud based logging/monitoring tool such as <a href="https://www.sentry.io">Sentry</a> or <a href="https://logrocket.com/">Log Rocket</a> — they will make your life easier.</p>
+<h2 id="2-change-one-thing-at-a-time">2. Change one thing at a time</h2>
+<p>Approach troubleshooting as an exercise of the <a href="https://www.britannica.com/science/scientific-method">scientic method</a>. Observe the problem, identify the possible variables involved, make predictions on how those variables value may be causing the issue, and finally test your predictions <strong>changing one thing at a time</strong>. I cannot emphasize enough how important this is, if you change several things at the same time — for example variables&rsquo;s values — you might not come to a conclusion as quick as desired since you&rsquo;re practically invalidating your tests. Soren Bjornstad talks about this on his blog <a href="https://controlaltbackspace.org/debugging/scientific-method/">Debugging &amp; the Scientic Method</a>.</p>
 <h2 id="3-identify-what-may-have-changed">3. Identify what may have changed</h2>
-<p>Whether it&rsquo;s a recent bug or an old one, identifying what may have changed around the time the bug started to manifest is a good thing to do. Did someone installed a new library? Did the version of a new libray get updated? Did the server was just updated? Did new code was deployed? Those are some of the question you&rsquo;d need to ask. Make use of the code repositores log to access the history of changes. If there are a lot of changes between the <em>version-that-works</em> and <em>the-one-that-doesnt</em> you can apply the next tip.</p>
-<h2 id="4-compare-compare-compare">4. Compare, compare, compare.</h2>
-<p>Comparing two or more sets of code is a powerful tool that might save you some precious time. For instance, if a bug is happening in a specific version of your product - let&rsquo;s say a mobile app - but not in the latest version, download both branches of the code and analyse the differences between us. Additionally, this can helpful while developing new requirements, you can compare two components, stored procedures, scripts, etc to find out what&rsquo;s different in one that makes it fail.</p>
-<p>Comparison tools are quite handy for this. Personally, I&rsquo;ve used <a href="https://www.scootersoftware.com/">Beyond Compare</a> for years. You can also rely on the the comparison features that most IDEs offer nowadays.</p>
+<p>Whether it&rsquo;s a recent bug or an old one, identifying what may have changed around the time the bug started to manifest is a good thing to do. Did someone installed a new library? Did the version of a new libray get updated? Was new code deployed? Did our deployment workflows just changed? Was a server recently updated? Those are some of the questions you need to ask. Make use of the code repositories log to access the history of changes. If there are a lot of changes between the <em>version that works</em> and <em>the one that doesn&rsquo;t</em> you can apply the next tip.</p>
+<h2 id="4-compare-compare-compare">4. Compare, compare, compare</h2>
+<p>Comparing two or more sets of code is a powerful tool that might save you some precious time. For instance, if a bug is happening in a specific version of your product — let&rsquo;s say a mobile app — but not in the latest version, download both branches of the code and analyse the differences between us. Additionally, this can be helpful while developing new requirements, you can compare two components, stored procedures, scripts, etc to find out what&rsquo;s different in one that makes it fail.</p>
+<p>Comparison tools are quite handy for this. Personally, I&rsquo;ve used <a href="https://www.scootersoftware.com/">Beyond Compare</a> for years. You can also rely on the the comparison features that most IDEs offer nowadays or open source solutions.</p>
 <h2 id="5-know-your-tools">5. Know your tools</h2>
-<p>Get familiar with the tools you can use to debug. Debugging is supported on <a href="https://code.visualstudio.com/docs/editor/debugging">Visual Code</a>, one of the most popular IDEs right now. For web, get familiar with <a href="https://developer.chrome.com/docs/devtools/">Chrome Developer tools</a> - and not just the console but with the memory analyser and performance tools. Look out for extensions such as <a href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en#:~:text=React%20Developer%20Tools%20is%20a,in%20the%20Chrome%20Developer%20Tools.&amp;text=This%20extension%20requires%20permissions%20to,not%20transmit%20any%20data%20remotely.">React Developer Tools</a>. Regarless of the platform or language  there are tools available to you to help you on this.</p>
+<p>Get familiar with the tools you can use to debug. Debugging is supported on <a href="https://code.visualstudio.com/docs/editor/debugging">Visual Code</a>, one of the most popular IDEs right now. For web, get familiar with <a href="https://developer.chrome.com/docs/devtools/">Chrome Developer tools</a> — and not just the console but with the memory analyser and performance tools. Look out for extensions such as <a href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en#:~:text=React%20Developer%20Tools%20is%20a,in%20the%20Chrome%20Developer%20Tools.&amp;text=This%20extension%20requires%20permissions%20to,not%20transmit%20any%20data%20remotely.">React Developer Tools</a>. Regardless of the platform or language  there are tools available to you to help you on this.</p>
 <h2 id="6-take-variables-values-to-the-extreme">6. Take variable&rsquo;s values to the extreme</h2>
-<p>Play with the possible values of a variable taking it to the highest or lowest value, even to a ridiculous value, and see how it behaves. This is quite helpful troubleshooting issues with CSS, playing with the height or width of a div and see how it&rsquo;s rendered. Actually, QAs use this technique during <a href="https://en.wikipedia.org/wiki/Boundary-value_analysis">Boundary value analysis</a>.</p>
-<h2 id="7-remove-code">7. Remove code</h2>
-<p>Once you have hands in the code while troubleshooting, start removing code  - e.g.: functions, arguments, modules - while you are still reproducing the issue. What this allows us is to reduce the problem to the minimum code required to reproduce it and increasing our chances of success.</p>
-<h2 id="8-ask-why-5-times">8. Ask Why 5 times</h2>
+<p>Play with the possible values of a variable, taking it to the highest or lowest value, even to a ridiculous value, and see how it behaves. This is quite helpful troubleshooting issues with CSS, playing with the height or width of a div and see how it&rsquo;s rendered. Actually, QAs use this technique during <a href="https://en.wikipedia.org/wiki/Boundary-value_analysis">Boundary value analysis</a>.</p>
+<h2 id="7-remove-some-code">7. Remove some code</h2>
+<p>Once you have hands in the code while troubleshooting, start removing code, e.g.: functions, arguments, modules, while you are still reproducing the issue. What this allows us is reducing the problem to the minimum code required to reproduce it and increasing our chances of success.</p>
+<h2 id="8-print-out-to-the-console-if-needed">8. Print out to the console, if needed</h2>
+<p>Printing out to the console can be quite helpful to identify the different execution paths of a program — especially in legacy programs or programs without good documentation. It can also help you identify whereabouts an error is occurring, for example, if the program is failing silently you can add console prints at different points of the path and check out what gets printed and what does not.</p>
+<h2 id="9-consider-other-factors-besides-code">9. Consider other factors besides code</h2>
+<p>Not always can the root cause of a problem be found in the code. Our code runs in a <em>context</em>, identify the characteristics of that context and taken them in to account during your troubleshooting. Consider things like RAM memory, a server&rsquo;s IP, cache, processes permissions, among others.</p>
+<h2 id="10-ask-why-5-times">10. Ask <em>Why</em> 5 times</h2>
 <p>Sometimes <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">talking to a rubber duck</a> helps having an Eureka  moment, sometimes what it does the trick is asking yourself the same question several times. As explained in <a href="https://www.mindtools.com/pages/article/newTMC_5W.htm#:~:text=The%205%20Whys%20strategy%20is,then%20ask%20the%20question%20again.">here</a>,
 the 5 Whys strategy is a tool for uncovering the root of a problem. Start with a problem and ask why it is occurring, find a good answer to that first question and keep asking until you reach the root cause of the problem.</p>
 

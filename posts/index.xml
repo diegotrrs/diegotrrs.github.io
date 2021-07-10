@@ -15,7 +15,7 @@
     
     
     <item>
-      <title>Tips for troubleshooting</title>
+      <title>10 Tips for troubleshooting</title>
       <link>/posts/tips-troubleshooting/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -28,7 +28,7 @@
         
         
         
-          Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious - and it is - but that boost of dopamine you get when you find what&amp;rsquo;s causing a specific problem makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
+          Troubleshooting is one of those things you will do a lot as a programmer. Spending hours finding out the root cause of an issue may sound tedious — and it is — but that boost of dopamine you get when you find what&amp;rsquo;s causing a specific problem makes the whole thing worthwhile. The following tips are taken from more than 10 years of troubleshooting:
 1. Check the logs This is number one for a reason.
           
         
