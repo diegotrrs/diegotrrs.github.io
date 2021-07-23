@@ -9,10 +9,30 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to get a Docker container&#39;s IP address</title>
+      <link>/posts/how-to-get-a-docker-container-ip-address/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/how-to-get-a-docker-container-ip-address/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Containers are designed to be isolated but sometimes they need to communicate with other containers. This can be necessary when you have a container as your database server and you have a management tool, e.g.L: PGAdmin, running in another container in order to query and manage the database. In order to achieve this you need the container&amp;rsquo;s IP in the network bridge created by Docker. Follow either one of these two methods to achieve this:
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>10 Tips for troubleshooting</title>
