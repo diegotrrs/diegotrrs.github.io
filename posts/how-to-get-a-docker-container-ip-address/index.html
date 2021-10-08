@@ -177,17 +177,17 @@ you have a management tool, e.g.L: <a href="https://www.pgadmin.org/download/pga
 <ol>
 <li>List all the containers and choose the id of the one you need</li>
 </ol>
-<pre><code>docker container ls
+<pre tabindex="0"><code>docker container ls
 </code></pre><ol start="2">
 <li>Find our the IP Address</li>
 </ol>
-<pre><code>docker inspect &lt;CONTAINER_ID&gt; | grep '&quot;IPAddress&quot;' | head -n 1
+<pre tabindex="0"><code>docker inspect &lt;CONTAINER_ID&gt; | grep '&quot;IPAddress&quot;' | head -n 1
 </code></pre><h2 id="2-using-ctop">2. Using CTOP</h2>
 <p><a href="https://github.com/bcicen/ctop">CTOP</a> is a great command-line tool for monitoring containers and gaining insights about them. Finding out a container&rsquo;s ip is dead easy:</p>
 <ol>
 <li>Start ctop</li>
 </ol>
-<pre><code>ctop
+<pre tabindex="0"><code>ctop
 </code></pre><ol start="2">
 <li>Access the single view of a container</li>
 </ol>
@@ -208,6 +208,13 @@ you have a management tool, e.g.L: <a href="https://www.pgadmin.org/download/pga
             <hr />
           </div>
           <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/code-easy-to-remove/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Code easy to remove</span>
+                </a>
+              </span>
             
             
               <span class="button next">

@@ -9,10 +9,30 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Code easy to remove</title>
+      <link>/posts/code-easy-to-remove/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/code-easy-to-remove/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Some time ago I ran into a tweet — one I haven&amp;rsquo;t been able to find since — of someone saying that one of the best lessons they&amp;rsquo;d learned through the years is to design code that is easy to remove. Initially, that didn&amp;rsquo;t sound natural to me — taking into account the death of our code in our programming process — but now I think that&amp;rsquo;s something we always want to do.
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>How to get a Docker container&#39;s IP address</title>
