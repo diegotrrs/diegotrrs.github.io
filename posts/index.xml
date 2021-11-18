@@ -9,10 +9,31 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Nov 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>It&#39;s all about perspective</title>
+      <link>/posts/its-about-perspective/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/its-about-perspective/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Good practices, such as keeping things simple and small, and keeping things familiar together can be seen from different perspectives:
+ From a function point of view, it might mean short functions that do one thing &amp;amp; with a few parameters. From a component point of view, it might mean a cohesive folder structure &amp;amp; good dependencies. From an architecture point of view, it might mean micro-services with their own database or a modular monolith.
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>Code easy to remove</title>
